@@ -41,8 +41,9 @@ int main()
     printf("Enter the number:\n");
     scanf("%d",&iValue);
 
-    Accept(iValue);                                                   // Method call
+    Accept(iValue);                                                   // Function call
     return 0;
 
 
 }
+
