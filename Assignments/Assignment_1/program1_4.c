@@ -49,7 +49,7 @@ int main()
     printf("Enter the number:\n");
     scanf("%d",&iValue);
 
-    bRet = Check(iValue);                                           // method call
+    bRet = Check(iValue);                                           // Function call
 
     if(bRet == true)
     {
@@ -61,3 +61,4 @@ int main()
     }
     return 0;
 }
+
