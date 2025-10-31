@@ -47,7 +47,7 @@ int main()
     int iValue1 = 15, iValue2 = 5;                                 // To accepet input
     int iRet = 0;                                                  // To Store result
 
-    iRet = Division(iValue1,iValue2);                              // Method call
+    iRet = Division(iValue1,iValue2);                              // Function call
     printf("Division is:%d",iRet);
 
     return 0;
