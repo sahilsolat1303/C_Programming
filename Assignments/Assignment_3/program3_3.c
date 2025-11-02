@@ -27,7 +27,7 @@ void DisplayEvenFactor(
     {
         iNo = -iNo;
     }
-    for(i=1;i<=iNo;i++)                                        
+    for(i=1;i<iNo;i++)                                        
     {
         if(iNo%i==0&&i%2==0)
         {
@@ -59,6 +59,7 @@ int main()
 //  
 //  input: 36
 //
-//  output: 2   6   12  18  36
+//  output: 2   6   12  18 
 //
 /////////////////////////////////////////////////
+
