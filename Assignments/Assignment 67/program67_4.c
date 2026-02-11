@@ -11,12 +11,15 @@ BOOL ChkBit(UINT iNo, int iPos1, int iPos2)
 {
     UINT iMask1 = 0x1;
     UINT iMask2 = 0x1;
+    UINT Mask = 0x1;
     
 
     iMask1 = iMask1 << iPos1-1;
-    iMask2 = iMask1 << iPos2-1;
+    iMask2 = iMask2 << iPos2-1;
 
-    if((iNo & iMask1) || (iNo & iMask2))
+    Mask = iMask1 | iMask2;
+
+    if((iNo & iMask) != 0)
     {
         return TRUE;
     }
@@ -53,4 +56,5 @@ int main()
         printf("FALSE");
     }
     return 0;
+
 }
